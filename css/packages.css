@@ -15,6 +15,13 @@ html, body{
     overflow-x: hidden;
 }
 
+body{
+    /* background-image: url(https://www.patternpictures.com/wp-content/uploads/stone-wall-bricks-texture-header.jpg); */
+    background-image: url(https://c1.wallpaperflare.com/preview/119/900/1011/wall-bricks-baird.jpg);
+    /* background-size: cover; */
+    background-position: center;
+}
+
 :root{
 
     /*      Theme colors        */
@@ -81,11 +88,7 @@ span{
     font-family: var(--Abel);
 }
 
-.container2{
-    background-image: url(https://cdn.discordapp.com/attachments/817374427674312717/907504706539110430/marble-texture-white-pattern.png);
-    background-size: cover;
-    background-position: center;
-}
+
 .bg{
     background-repeat : no-repeat;
     background-size: cover;
