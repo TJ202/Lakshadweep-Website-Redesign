@@ -110,6 +110,9 @@ span{
     background-image: url(https://cdn.discordapp.com/attachments/817374427674312717/907502480181563392/image_7.jpg);
 }
 
+.bg5{
+    background-image: url(https://cdn.discordapp.com/attachments/817374427674312717/909038751685148692/image_14.jpg);
+}
 .text-gray{
     color: var(--text-gray);
 }
@@ -298,6 +301,10 @@ main .blog-content .blog-title{
     flex-direction: row;
 }
 
+.back{
+    background: rgba(0, 0, 0, 0.20);
+}
+
 .in1{
     display: inline-block;
     margin: 2%;
@@ -362,6 +369,7 @@ footer.footer{
     height: 100%;
     background: var(--bg-color);
     position: relative;
+    padding: 0 5vw;
 }
 
 footer.footer .container{
@@ -447,6 +455,10 @@ footer.footer .move-up span:hover{
         max-width: 140px;
     }
 
+    .in12{
+        width: fit-content;
+    }
+
     .social{
         display: none;
     }
@@ -471,7 +483,7 @@ footer.footer .move-up span:hover{
         display: block;
         height: fit-content;
     }
-    
+        
     .nav{
         height: 5rem;
     }

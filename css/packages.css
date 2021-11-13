@@ -96,11 +96,11 @@ span{
 }
 
 .bg1{
-    background-image: url(https://cdn.discordapp.com/attachments/817374427674312717/907495587912495134/image_3.jpg);
+    background-image: url(https://cdn.discordapp.com/attachments/817374427674312717/909049727381823548/imgonline-com-ua-blur-FoaxRIoJEx1bzax.jpg);
 }
 
 .bg2{
-    background-image: url(https://cdn.discordapp.com/attachments/817374427674312717/907496322607767622/image_4.jpg);
+    background-image: url();
 }
 
 .bg3{
@@ -108,6 +108,22 @@ span{
 }
 
 .bg4{
+    background-image: url(https://cdn.discordapp.com/attachments/817374427674312717/907502480181563392/image_7.jpg);
+}
+
+.bg5{
+    background-image: url(https://cdn.discordapp.com/attachments/817374427674312717/907502480181563392/image_7.jpg);
+}
+
+.bg6{
+    background-image: url(https://cdn.discordapp.com/attachments/817374427674312717/907502480181563392/image_7.jpg);
+}
+
+.bg7{
+    background-image: url(https://cdn.discordapp.com/attachments/817374427674312717/907502480181563392/image_7.jpg);
+}
+
+.bg8{
     background-image: url(https://cdn.discordapp.com/attachments/817374427674312717/907502480181563392/image_7.jpg);
 }
 
@@ -391,6 +407,7 @@ footer.footer{
     height: 100%;
     background: var(--bg-color);
     position: relative;
+    padding: 0 5vw;
 }
 
 footer.footer .container{
