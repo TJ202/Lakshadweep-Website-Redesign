@@ -590,6 +590,14 @@ footer.footer .move-up span:hover{
         height: 5rem;
     }
 
+    .container1 .content1 a{
+        font-size: 18px;
+    }
+
+    .content1 h2{
+        line-height: 40% !important;
+    }
+
     .outer{
         flex-direction: column;
     }

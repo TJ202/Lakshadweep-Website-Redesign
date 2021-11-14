@@ -480,6 +480,9 @@ footer.footer .move-up span:hover{
         height: fit-content;
     }
     
+    ol{
+        width: auto !important;
+    }
     .nav{
         height: 5rem;
     }
