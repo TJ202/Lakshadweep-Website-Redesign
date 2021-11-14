@@ -20,6 +20,7 @@ body{
     background-image: url(https://c1.wallpaperflare.com/preview/119/900/1011/wall-bricks-baird.jpg);
     /* background-size: cover; */
     background-position: center;
+    font-size: 20px;
 }
 
 :root{
@@ -325,6 +326,59 @@ main .blog-content .blog-title{
     padding: 2% 0;
 }
 
+/* .out{
+    display: flex;
+} */
+
+.wrap{
+    display: flex;
+    padding: 1rem 2rem;
+    /* justify-content: space-evenly; */
+}
+
+.wrap img{
+    display: inline-block;
+    width: 40%;
+    /* margin: auto; */
+}
+
+.w{
+    width: 50%;
+}
+
+.cont{
+    display: inline-block;
+    width: 60%;
+    margin: 2rem;
+}
+
+
+.container1 {
+    position: relative;
+    margin: 1rem; 
+  }
+  
+.container1 .content1 {
+    position: absolute; 
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    width: 100%; 
+    padding: 0;
+}
+
+.container1 .content1 a{
+    color: white;
+    /* font-family :var(--Abel); */
+    font-family: var(--Josefin);
+}
+
+
+.container1 .content1:hover {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.8);
+}
+
 table{
     color: white;
     font-family: var(--Lexend);
@@ -355,6 +409,10 @@ th{
     opacity: 0.5;
 }
 
+button span:hover{
+    color: white !important;
+    text-shadow: 1px 2px 3px black;
+}
 
 .in1{
     display: inline-block;
@@ -525,6 +583,9 @@ footer.footer .move-up span:hover{
         height: fit-content;
     }
     
+    .w{
+        width: 100%;
+    }
     .nav{
         height: 5rem;
     }

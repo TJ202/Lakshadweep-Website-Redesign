@@ -19,6 +19,7 @@ body{
     /* background-image: url(https://www.patternpictures.com/wp-content/uploads/stone-wall-bricks-texture-header.jpg); */
     background-image: url(https://c1.wallpaperflare.com/preview/119/900/1011/wall-bricks-baird.jpg);
     /* background-size: cover; */
+    font-size: 20px;
     background-position: center;
 }
 
@@ -317,6 +318,32 @@ main .blog-content .blog-title{
     color: white;
     width: 33%;
 }
+.container1 {
+    position: relative;
+    margin: 1rem; 
+  }
+
+ .container1 .content1 {
+    position: absolute; 
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    width: 100%; 
+    padding: 0;
+}
+
+.container1 .content1 a{
+    color: white;
+    /* font-family :var(--Abel); */
+    font-family: var(--Josefin);
+}
+
+
+.container1 .content1:hover {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.8);
+}
+
 
 .imcenter{
     display: block;
@@ -455,6 +482,10 @@ footer.footer .move-up span:hover{
         max-width: 140px;
     }
 
+    .outer{
+        flex-direction: column;
+    }
+    
     .in12{
         width: fit-content;
     }
@@ -486,10 +517,6 @@ footer.footer .move-up span:hover{
         
     .nav{
         height: 5rem;
-    }
-
-    .outer{
-        flex-direction: column;
     }
 
     .collapse{

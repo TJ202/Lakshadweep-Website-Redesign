@@ -20,6 +20,7 @@ body{
     background-image: url(https://c1.wallpaperflare.com/preview/119/900/1011/wall-bricks-baird.jpg);
     /* background-size: cover; */
     background-position: center;
+    font-size: 20px;
 }
 
 :root{
