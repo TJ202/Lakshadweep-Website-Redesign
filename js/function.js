@@ -15,7 +15,7 @@ exchange.addEventListener('click', () => {
  from_currencyEl.value = to_currencyEl.value;
  to_currencyEl.value = temp;
  calculate();
-});
+}); 
  
 function calculate() {
  const from_currency = from_currencyEl.value;
