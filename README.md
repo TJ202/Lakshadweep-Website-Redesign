@@ -1,4 +1,4 @@
-# HUMAN-COMPUTER INTERACTION PROJECT 
+# Redesign of Lakshadweep's Tourism Website
 
 In this project, we studied human-computer interaction (HCI), analyzed the usability 
 of Lakshadweep’s tourism website, and redesigned it guided by HCI principles
